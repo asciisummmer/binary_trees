@@ -24,8 +24,10 @@ typedef struct binary_tree_s heap_t;
 
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 void binary_tree_print(const binary_tree_t *tree);
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
 #endif
