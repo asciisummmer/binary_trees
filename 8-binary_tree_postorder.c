@@ -14,3 +14,11 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 	binary_tree_postorder(tree->right, func);
 	func(tree->n);
 }
+
+/*
+if (val_l <= val_r)
+		return (val_l + 1);
+	else
+		return (val_r);
+
+*/
